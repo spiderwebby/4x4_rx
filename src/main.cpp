@@ -3,23 +3,23 @@
 
 //PINS!
 //H-Bridge
-const int LEFT_ENABLE = 10;
-const int LEFT_FORWARD = 5;
-const int LEFT_BACKWARD = 6;
-const int RIGHT_BACKWARD = 9;
-const int RIGHT_FORWARD = 13;
-const int RIGHT_ENABLE = 11;
+const int LEFT_ENABLE = 5;   //brown
+const int LEFT_FORWARD = 2;   //grey
+const int LEFT_BACKWARD = 3;  //white
+const int RIGHT_BACKWARD = 8; //green
+const int RIGHT_FORWARD = 4; //blue
+const int RIGHT_ENABLE = 6;  //purple
 //Reciever
-const int RX_PIN1 = A5;
-const int RX_PIN2 = A4;
-const int RX_PIN3 = A3;
-const int RX_PIN4 = A2;
-const int RX_PIN5 = A1;
-const int RX_PIN6 = A0;
-const int RX_PIN7 = 2;
-const int RX_PIN8 = 4;
+const int RX_PIN1 = A3;
+const int RX_PIN2 = A2;
+const int RX_PIN3 = A1;
+const int RX_PIN4 = A0;
+const int RX_PIN5 = 15;
+const int RX_PIN6 = 14;
+const int RX_PIN7 = 16;
+const int RX_PIN8 = 7;
 //LiDAR motor
-const int LIDAR = 3;
+//const int LIDAR = 3;
 
 class Channel {
   public:
